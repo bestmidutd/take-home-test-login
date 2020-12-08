@@ -1,0 +1,10 @@
+html
+    head
+    body
+        form(action='/login', method='POST')
+            p
+                | username:
+                input(type= "text", name="username", value= '')
+                | password:
+                input(type= "password", name = "password", value = '')
+            input(type="submit", name= "login", value="Log In")
